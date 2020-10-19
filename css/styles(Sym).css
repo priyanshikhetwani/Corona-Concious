@@ -1,0 +1,132 @@
+
+body{
+  font-family: 'Piazzolla', serif;
+}
+
+.navbar-dark{
+  background-color:#0d6123; /* #0a2e63;*//*#512DA8;*/
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.symphead
+{
+  text-align: center;
+  font-size: 3rem;
+  color:white;
+  padding-top:10px
+}
+footer{
+  background-color: #67b31b;
+  text-align: center;
+  color:black;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+.head1
+{
+  background-color: #67b31b !important;
+  height: 50px !important;
+ color: white !important;
+  vertical-align: middle;
+}
+.coloured
+{
+  background-color: #0d6123;
+  margin-bottom: 10px;
+  padding-bottom: 15px
+}
+.third
+{
+  background-color: #0d6123;
+  color: black;
+  vertical-align: middle;
+
+}
+.sym2
+{
+  background-color:#6d4fdc;
+}
+li{
+  margin-bottom: 15px;
+  color:white
+}
+.boxed
+{
+border: 5px solid #6d4fdc;
+border-spacing: 2px;
+}
+.risk1
+{
+  text-align: center;
+  font-size: 3rem;
+   color:white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.symptoms
+{
+  padding: 35px;
+  padding-top:25px;
+}
+.first
+{
+  padding: 30px;
+}
+.image
+{
+  padding: 10px
+}
+.col2
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.col3
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.image
+{
+height: 70%;
+}
+.last
+{
+  padding-top: 30px;
+  background-color: #0d6123;
+}
+.col1
+{
+  background-color: blue
+  padding-right:0px;
+}
+
+.riskimage
+{
+  padding-top: 90px;
+  vertical-align: middle;
+}
+.sym
+{
+  padding: 50px;
+  padding-left: 250px;
+   grid-column-gap: 10px;
+  font-size: 1.5rem;
+}
+.sec{
+  padding: 30px;
+}

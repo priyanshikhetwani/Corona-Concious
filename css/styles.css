@@ -1,0 +1,147 @@
+.row-header{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 300px;
+	
+}
+
+.footer{
+	background-color: #67b31b; /*#98b0d4;*/ /*#D1C4E9;*/
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #67b31b; /*#244e8c;*/										/*#9575CD;*/
+	color: floralwhite;
+
+}
+
+address{
+	font-size: 80%;
+	margin: 0px;
+	color: #0f0f0f;
+
+}
+
+body{
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.navbar-dark{
+	background-color:#0d6123;	/* #0a2e63;*//*#512DA8;*/
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background:	#0d6123;			/*#512DA8;*/
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: :300px;
+}
+
+.carousel-caption{
+	padding-left: 400px;
+	padding-bottom: 50px;
+}
+
+/*img.news-image {
+  background: #dadada;
+  height: 150px;
+  width: 150px;
+}*/
+/*p.news-info {
+  margin-top: 0;
+}*/
+/*.news-item {
+  clear: both;
+  border-top: 1px solid #dadada;
+}
+.odd div.news-info {
+  float: right;
+}
+.odd div.news-image {
+  float: left;
+  left: 0;
+}
+.even div.news-info {
+  float: left;
+}
+.even div.news-image {
+  float: right;
+  right: 0;
+}*/
+
+.radio-toolbar{
+	color: white;
+}
+
+
+input[type=radio]{
+	display: none;
+	margin: 10px;
+}
+
+input[type=radio] + label{
+	display: inline-block;
+	padding: 4px 12px;
+	margin: -2px;
+	background-color: red;
+}
+
+input[type=radio]:checked + label{
+	background-color: green;
+}
+
+input[name=optradio]{
+	display: inline-block;
+}
+
+#carouselButton{
+	right: 0px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+}
+
+/*.modal-header{
+	background-color: #512DA8;
+	color: floralwhite;
+}
+
+.modal-body{
+	background-color: #D1C4E9;
+}*/
+
+.close{
+	color: floralwhite;
+}

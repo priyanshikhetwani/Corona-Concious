@@ -1,0 +1,222 @@
+/*********************************************TAGS******************************************************************8*/
+
+body {
+    /*    font-family: 'Montserrat', sans-serif;*/
+    text-align: center;
+}
+h1,
+h2,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {}
+h4 {
+    font-size: 1rem;
+}
+p {
+    color: #8f8f8f;
+}
+
+/*HEADINGS*/
+#Covid{
+    padding: 30px 10px;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+i {
+    color: #67b31b;
+    font-size: 5rem;
+}
+.icon {
+    color: #67b31b;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#0d6123;
+    /*    font-size: 100px;*/
+}
+.feature-box {
+    padding: 3%;
+    text-align: center;
+}
+.container-fluid {
+    padding: 4% 8%;
+    padding-bottom: 10%;
+}
+
+/*Download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/******************************************Navigation bar**********************************************************/
+
+.navbar {
+    padding-bottom: 5rem;
+}
+.sticky {
+    position: fixed
+}
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+/********************************************************Title_ ***************************************************/
+
+#title {
+    background-color: #67b31b;
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+
+/**********************************************FEATURES*****************************************************************/
+
+#features {
+    padding: 7% 20%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+/***************************************************TESTIMONIAL SECTION****************************************/
+
+#testimonials {
+    background-color: #67b31b;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 10%;
+}
+.testimonial-text {
+    font-size: 2rem;
+}
+
+/***************************************************Press****************************************/
+
+#press {
+    background-color: #67b31b;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/***************************************************Pricing****************************************/
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.dog-image {
+    width: 90px;
+    ;
+    border-radius: 100%;
+    height: 70px;
+}
+.tp {
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+.price-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/***************************************************Media query****************************************/
+
+@media (max-width:1028px) {
+    .title_image {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+/***************************************************Call to action****************************************/
+
+#cta {
+    background-color: #67b31b;
+    padding: 3% 15%;
+}
+#cta1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    color: #fff;
+}
+button {
+    padding: 20px;
+}
+
+/*footer*/
+
+#footer {
+    padding: 2% 8%;
+    color: black;
+    /*    font-weight: 100;*/
+    background-color: #0d6123;
+}
+#cta2 {
+    position: relative;
+/*    bottom: 10%*/
+/*    margin:  2% 10%;*/
+    
+}
+.icon2 {
+    margin: 0 8px;
+}
+.counter {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 500
+}
+.earth {
+    position: absolute;
+    /*    padding-bottom: 50px;*/
+    bottom: 2%;
+    height: 150%;
+    width: 80%;
+    /*    top: 5%;*/
+}
+.corona {
+    padding-top: 30px;
+    padding-bottom: 0;
+    position: absolute;
+    position: absolute;
+    left: 30%;
+    width: 60%;
+    /*    transform: rotate(25deg);*/
+    top: 10px;
+}
+#Current {
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+.footer-text{
+    color: black
+}
+a{
+    color: white;
+}
+a:hover{
+    color: yellow
+}
